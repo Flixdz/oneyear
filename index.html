@@ -11,7 +11,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-        
+
 </head>
 
 <body data-bs-theme="dark">
@@ -31,7 +31,7 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Rumah</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="kata.html">Kata kata</a>
@@ -43,43 +43,49 @@
     </nav>
 
     <div class="container pt-5 text-center">
-        
+
         <h2>Halo Embul!!</h2>
 
-        <p>Selamat satu tahun kita bersama sayang. Hari ini, 15 November 2024, menandai satu tahun perjalanan indah yang telah kita lalui. Rasanya baru kemarin kita saling bertatap muka dan memulai kisah ini. Setiap detik bersamamu adalah sebuah anugerah yang tak ternilai.</p>
-    
-    <p>Banyak kenangan manis yang kita ciptakan—tawa, pelukan hangat, dan bahkan tantangan yang kita hadapi bersama. Semua itu membuat kita semakin kuat dan saling memahami. Kamu adalah sosok yang selalu membuat hariku lebih berwarna.</p>
-            
-            <p>Aku bersyukur bisa berbagi hidup ini denganmu. Terima kasih telah menjadi teman, sahabat, dan cinta dalam hidupku. Mari kita terus menciptakan lebih banyak kenangan indah bersama. Aku berharap, perjalanan kita ke depan akan penuh kebahagiaan dan cinta yang tak terbatas.</p>
-            
-            <p>Selamat hari jadi, cintaku. Aku mencintaimu hari ini, esok, dan selamanya.</p>
-            
+        <p>Selamat satu tahun kita bersama sayang. Hari ini, 15 November 2024, menandai satu tahun perjalanan indah yang
+            telah kita lalui. Rasanya baru kemarin kita saling bertatap muka dan memulai kisah ini. Setiap detik
+            bersamamu adalah sebuah anugerah yang tak ternilai.</p>
+
+        <p>Banyak kenangan manis yang kita ciptakan—tawa, pelukan hangat, dan bahkan tantangan yang kita hadapi bersama.
+            Semua itu membuat kita semakin kuat dan saling memahami. Kamu adalah sosok yang selalu membuat hariku lebih
+            berwarna.</p>
+
+        <p>Aku bersyukur bisa berbagi hidup ini denganmu. Terima kasih telah menjadi teman, sahabat, dan cinta dalam
+            hidupku. Mari kita terus menciptakan lebih banyak kenangan indah bersama. Aku berharap, perjalanan kita ke
+            depan akan penuh kebahagiaan dan cinta yang tak terbatas.</p>
+
+        <p>Selamat hari jadi, cintaku. Aku mencintaimu hari ini, esok, dan selamanya.</p>
+
         <p>Dengan seluruh cinta, Muhammad Fachri Al Husein.</p>
 
     </div>
 
     <div class="container text-center mb-5 mt-5">
         <h2>Halaman Lain yang mungkin embul suka><</h2>
-        <a href="kata.html" class="btn btn-outline-success rounded-5">Kata Kata</a>
+                <a href="kata.html" class="btn btn-outline-success rounded-5">Kata Kata</a>
     </div>
 
     <div class="container text-center mb-5 mt-5">
         <center>
             <div id="gambarCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <!-- Indicators -->
-    
+
                 <!-- Carousel Inner -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="image/embul.jpg" class="d-block rounded-5" width="200" alt="Gambar 1">
-    
+                        <img src="image/embul.jpg" class="d-block rounded-5" width="150" alt="Gambar 1">
+
                     </div>
                     <div class="carousel-item">
-                        <img src="image/embul1.jpg" class="d-block rounded-5" width="200" alt="Gambar 2">
-    
+                        <img src="image/embul1.jpg" class="d-block rounded-5" width="150" alt="Gambar 2">
+
                     </div>
                     <div class="carousel-item">
-                        <img src="image/embul2.jpg" class="d-block rounded-5" width="200" alt="Gambar 3">
+                        <img src="image/embul2.jpg" class="d-block rounded-5" width="150" alt="Gambar 3">
                     </div>
                 </div>
             </div>
@@ -88,11 +94,102 @@
         <h3 class="embul">Aina Ida Yasa</h3>
         <h3><a href="https://maps.app.goo.gl/Bydt4hQNywdZF3DR9" class="text-white">Bojong</a>, 03 Juli 2006 <b>(18 Tahun)</b></h3>
         <h3>My Beloved, My Love, forever and ever💕💕</h3>
+        <div class="text-center">
+            <button class="btn btn-outline-danger rounded-5" onclick="playAudio()"><iconify-icon icon="gravity-ui:play"
+                    inline></iconify-icon></button> | <a class="btn btn-outline-info rounded-5" href="https://www.instagram.com/nnayas_06/?igsh=aWpmcmRkcHFqamlu#"><iconify-icon inline icon="line-md:instagram"></iconify-icon></a>
+        </div>
     </div>
 
-    <div class="footer text-center">
-        <p>Buatan Ayang 100% untuk embul tersayang❤</p>
+    <div class="container">
+
+        <div class="lyrics-container">
+            <div class="lyrics mt-4 mb-4 text-center h2"  id="lyricsContainer">
+                <!-- Lirik akan diisi secara dinamis -->
+            </div>
+        </div>
+        
+        <div class="footer mt-5 text-center">
+            <p class="fw-bold">Buatan ayang 100% untuk embul tersayang❤
+            <br>&copy 2024 Muhfhri, made with love❤</p>
+        </div>
     </div>
+        
+    <audio id="aina">
+        <source src="1.mp3" type="audio/mp3">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    
+    
+    <script>
+        // sedikit sulit mensikronisasikan
+        const lyrics = [
+            { time: 0, text: "I Promise that nobody's gonna love you like me-e-e" },
+            { time: 2.3, text: "Our song is a slamming scream door" },
+            { time: 4.4, text: "Sneakin' out late, tapping on your windows" },
+            { time: 7.1, text: "Back before you lost" },
+            { time: 8.9, text: "The one real thing you've ever known" },
+            { time: 11.3, text: "Just take me home..." },
+            { time: 12.6, text: "And i'm so furious at you for making me feel this way" },
+            { time: 17.3, text: "Don't pretend it's such a mystery" },
+            { time: 19.2, text: "Think about the place where you first met me" },
+            { time: 21.2, text: "me-hee-hee!" },
+            { time: 22.3, text: "Fighting in only your army" },
+            { time: 24.5, text: "I'm damned if I do give a damn what people say" },
+            { time: 26.8, text: "Isn't Isn't Isn't?" },
+            { time: 28.8, text: "So i think that it's best if we both stay" },
+            { time: 32.3, text: "And i wouldn't marry me either" },
+            { time: 33.9, text: "And snakes and stones never broke my bones so" },
+            { time: 36.6, text: "People throw rocks at things that shine" },
+            { time: 39, text: "I'd never walk Cornelia Street again" },
+            { time: 41.9, text: "Our song is the way he laughs" },
+            { time: 43.9, text: "This is a big world" },
+            { time: 45, text: "This love is ours" },
+            { time: 46.1, text: "Cause there we are again" },
+            { time: 48.1, text: "Cause we never go out of style" },
+            { time: 50, text: "Isn't Isn't Isn't?" },
+            { time: 53, text: "You need to calm down" },
+            { time: 54.2, text: "Will it patch your broken wings?" },
+            { time: 56.7, text: "I had a feeling so peculiar" },
+            { time: 60, text: "You chosing me" },
+            { time: 60.8, text: "Muhammad Fachri Al Husein ~" },
+        ];
+    
+        const musicPlayer = document.getElementById('aina');
+        const lyricsContainer = document.getElementById('lyricsContainer');
+    
+        // Fungsi untuk menampilkan lirik hanya pada waktu yang sesuai
+        function updateLyrics() {
+            const currentTime = musicPlayer.currentTime; // Waktu audio saat ini
+            lyricsContainer.innerHTML = ''; // Kosongkan kontainer lirik setiap kali diperbarui
+    
+            // Cari dan tampilkan lirik yang cocok dengan waktu saat ini
+            lyrics.forEach((line, index) => {
+                if (currentTime >= line.time && (index === lyrics.length - 1 || currentTime < lyrics[index + 1].time)) {
+                    const lyricLine = document.createElement('div');
+                    lyricLine.className = 'lyric-line active-line'; // Tambahkan gaya khusus
+                    lyricLine.textContent = line.text;
+                    lyricsContainer.appendChild(lyricLine);
+                }
+            });
+        }
+    
+        // Perbarui lirik setiap kali waktu audio berubah
+        musicPlayer.addEventListener('timeupdate', updateLyrics);
+    
+        // Pastikan kontainer kosong saat halaman pertama kali dimuat
+        lyricsContainer.innerHTML = '<div class="lyric-line"><img src="image/dark.gif" height="38" alt="ngelag ya??"></div>';
+    </script>
+    
+    <script>
+        function playAudio() {
+            var audio = document.getElementById('aina');
+            audio.play().catch(error => {
+                console.log('Gagal memutar audio: ', error);
+            });
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
 </body>
 
 </html>

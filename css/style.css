@@ -4,3 +4,29 @@
 body {
     font-family: "Host Grotesk", sans-serif;
 }
+
+#lyricsContainer {
+    background: linear-gradient(90deg, rgb(85, 90, 122), rgb(57, 57, 146));
+    background-size: 400% 400%;
+    padding: 6px;
+    border-radius: 22px;
+    animation: backgroundAnimation 4s ease infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.lyrics-container {
+    position: relative;
+    height: 8em; /* Sesuaikan dengan kebutuhan Anda */
+    overflow: hidden;
+  }
